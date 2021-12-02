@@ -1,0 +1,2 @@
+# springbootbykotlinandmybatis
+Scala界隈が寂しいのでKotlinに一旦切り替え。
