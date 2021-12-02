@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.ddd.BookMapper">
+
+    <select id="bookAll" resultType="com.example.ddd.Book">
+        SELECT
+        id,
+        book_name,
+        volume_num,
+        author_name,
+        published_date
+        FROM
+        booktable
+    </select>
+
+</mapper>
